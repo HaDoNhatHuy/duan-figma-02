@@ -186,7 +186,7 @@ a {
   background: #fefefd;
   box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
   position: absolute;
-  top: 149px;
+  top: 9px;
   left: -40px;
 }
 .hero .hero-right .course::after {
@@ -464,5 +464,203 @@ a {
   align-items: center;
   color: #9da6a5;
   font-size: 1.4rem;
+  line-height: normal;
+}
+/* =====================================count========================================*/
+.count {
+  margin-top: 389px;
+}
+.count-body {
+  display: flex;
+  align-items: center;
+  gap: 217px;
+}
+.count-body .item-1 {
+  margin-left: 156px;
+}
+.count-body .item .heading-lv2 {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.count-body .item .desc {
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+/* =====================================testimonial========================================*/
+.testimonial {
+  margin-top: 264px;
+}
+.testi-body {
+  display: flex;
+  position: relative;
+}
+.testi-body .testi-left {
+  width: 40%;
+}
+.testi-body .testi-left .desc {
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 150%; /* 150% */
+}
+.testi-body .testi-left .student-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.testi-body .testi-left .student-name span {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.testi-body .testi-left .pre-next {
+  margin-top: 52px;
+  cursor: pointer;
+}
+.testi-body .testi-right .img-1 {
+  position: absolute;
+  top: 179px;
+  left: 491px;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background-color: #fcbf46;
+}
+.testi-body .testi-right .img-2 {
+  position: absolute;
+  top: 0;
+  left: 635px;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background-color: #1ebfc1;
+}
+.testi-body .testi-right .img-3 {
+  position: absolute;
+  bottom: 0;
+  left: 703px;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background-color: #ff947a;
+}
+.testi-body .testi-right .img-4 {
+  position: absolute;
+  top: 75px;
+  left: 764px;
+  width: 235px;
+  height: 235px;
+  border-radius: 50%;
+  background-color: #ff8282;
+}
+.testi-body .testi-right .img-5 {
+  position: absolute;
+  top: 19px;
+  right: 0;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #bf83ff;
+}
+.testi-body .testi-right .img-6 {
+  position: absolute;
+  bottom: 29px;
+  right: 32px;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background-color: #b1dfdc;
+}
+/* =====================================base========================================*/
+.base {
+  margin-top: 130px;
+  background: #def6f5;
+  height: 272px;
+}
+.base .base-body {
+  display: flex;
+  gap: 410px;
+  align-items: center;
+}
+.base .base-body .base-left .heading-lv2 {
+  margin-top: 76px;
+  margin-bottom: 18px;
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.base .base-body .base-left .desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+.base .base-body .base-right {
+  margin-top: 96px;
+}
+.base .base-body .base-right a {
+  padding: 20px 41px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 14px;
+  background: #2ac9bf;
+}
+/* =====================================footer========================================*/
+.body-footer {
+  margin-top: 131px;
+}
+.body-footer .info {
+  display: flex;
+  gap: 144px;
+}
+.body-footer .info .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+.body-footer .info .desc {
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.body-footer .info .twitter,
+.body-footer .info .face,
+.body-footer .info .insta,
+.body-footer .info .linkedin {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.body-footer .social .social-name {
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.body-footer .copy-right {
+  text-align: center;
+  margin-top: 60px;
+  color: #b0b5b4;
+  font-size: 1.8rem;
   line-height: normal;
 }
